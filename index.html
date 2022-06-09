@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrap{
+            width: 350px;
+            height: 600px;
+            background-color: #000000;
+            border-radius: 25px;
+            
+        }
+        .conteiner{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .bigButton{
+            width: 148px;
+            height: 64px;
+            border-radius: 53px;
+
+        }
+        .smlBtn{
+            width: 65px;
+            height: 64px;
+
+        }
+        .pad{
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+        .padd1{
+            padding-right: 18px;
+        }
+        .padTop{
+        }
+        .result{
+            width: 300px;
+            height: 56px;
+            /* margin-left: 270px; */
+            background-color: #000000;
+            border: none;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: end;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="conteiner">
+            <div class="num">
+               
+                <input type="text" id="result" class="result">
+            </div>
+            <div class="grpBtn5">
+                <img class="smlBtn" id="clear" src="img/AC.png" alt="">
+                <img class="smlBtn pad" id="plusMinus" src="img/плюсмінус.png" alt="">
+                <img class="smlBtn padd1" id="procent" src="img/prosent.png" alt="">
+                <img class="smlBtn" id="divide" src="img/podilutu.png" alt="">
+
+            </div>
+            <div class="grpBtn4 padTop">
+                <div class="smlbBtn" id="btnx2">х²</div>
+                <img class="smlBtn" id="btn7" src="img/seven.png" alt="">
+                <img class="smlBtn pad" id="btn8" src="img/eight.png" alt="">
+                <img class="smlBtn padd1" id="btn9" src="img/nine.png" alt="">
+                <img class="smlBtn" id="multiplay" src="img/ікс.png" alt="">
+            </div>
+            <div class="grpBtn3 padTop">
+                <img class="smlBtn" id="btn4" src="img/four.png" alt="">
+                <img class="smlBtn pad" id="btn5" src="img/five.png" alt="">
+                <img class="smlBtn padd1" id="btn6" src="img/sixs.png" alt="">
+                <img class="smlBtn" id="minus" src="img/мінус.png" alt="">
+            </div>
+            <div class="grpBtn2 padTop">
+                <img class="smlBtn" id="btn1" src="img/one.png" alt="">
+                <img class="smlBtn pad" id="btn2" src="img/two.png" alt="">
+                <img class="smlBtn padd1" id="btn3" src="img/three.png" alt="">
+                <img class="smlBtn" id="plus" src="img/плюс.png" alt="">
+            </div>
+            <div class="grpBtn1 padTop">
+                <img class="bigButton" id="zero" src="img/0 1.png" alt="">
+                <img class="smlBtn pad" id="point" src="img/точка.png" alt="">
+                <img class="smlBtn" id="equl" src="img/дорівнує.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
